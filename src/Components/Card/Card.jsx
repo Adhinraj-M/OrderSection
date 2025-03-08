@@ -22,14 +22,14 @@ function Card() {
                   <div className="cartadd">
                     <button onClick={()=>handleDecrease(item.id)}>
                       <img
-                        src="../src/assets/images/icon-decrement-quantity.svg"
+                        src="../../../assets/images/icon-decrement-quantity.svg"
                         alt="decrement-icon"
                       />
                     </button>
                     {cart[item.id]}
                     <button onClick={()=>handleIncrease(item.id)}>
                       <img
-                        src="../src/assets/images/icon-increment-quantity.svg"
+                        src="../../../assets/images/icon-increment-quantity.svg"
                         alt="increment-icon"
                       />
                     </button>
