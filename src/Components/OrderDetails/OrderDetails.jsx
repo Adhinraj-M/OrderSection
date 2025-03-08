@@ -50,7 +50,7 @@ function OrderDetails() {
               <h5>{item?.title}</h5>
               <button onClick={() => handleRemove(item.id)}>
                 <img
-                  src="../src/assets/images/icon-remove-item.svg"
+                  src="../../public/assets/images/icon-remove-item.svg"
                   alt="remove-icon"
                 />
               </button>
@@ -67,7 +67,7 @@ function OrderDetails() {
       </div>
       <div className="carbon-neutral">
         <img
-          src="../src/assets/images/icon-carbon-neutral.svg"
+          src="../../public/assets/images/icon-carbon-neutral.svg"
           alt="carbon-neutral"
         />
         <p>

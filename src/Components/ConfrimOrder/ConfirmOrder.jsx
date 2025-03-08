@@ -10,7 +10,7 @@ function ConfirmOrder({ totalAmount, allProductDetails }) {
   return (
     <div className="modal-container">
       <img
-        src="../src/assets/images/icon-order-confirmed.svg"
+        src="../../public/assets/images/icon-order-confirmed.svg"
         alt="orderconfirm-icon"
       />
       <h2>Order Confirmed</h2>
