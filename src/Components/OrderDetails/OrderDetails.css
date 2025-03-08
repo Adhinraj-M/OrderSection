@@ -1,0 +1,158 @@
+.order-conatiner{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 30px;
+    display: grid;
+    width: 340px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-conatiner h1{
+    color: hsl(14, 86%, 42%);
+    font-size: 30px;
+}
+
+.item-container{
+    width: 320px;
+    padding: 15px ;
+    color: hsl(30, 4%, 58%);
+    border: 1px solid hsl(27, 35%, 94%);
+   
+}
+.item-container span{
+    color: rgb(223, 51, 51);
+    font-weight: 600;
+}
+
+.item-container h5{
+    font-weight: 600;
+    color: #000;
+    margin-bottom: -10px;
+}
+.item-container button{
+    border-radius: 100%;
+    padding: 1px 3px;
+    cursor: pointer;
+    border: 2px solid hsl(30, 4%, 58%);
+    margin-left: 280px;
+}
+  
+.item-container button:hover{
+    border: 2px solid hsl(20, 5%, 11%);
+    
+}
+
+.order-details{
+    display: flex;
+    padding: 20px 0px;
+    width: 320px;
+    border: 1px solid hsl(30, 20%, 94%);
+}
+
+.order-details p{
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.order-details h2{
+    margin-left: 140px;
+}
+
+.carbon-neutral{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.carbon-neutral img{
+    margin-right: 5px;
+}
+
+.carbon-neutral span{
+    font-weight: 600;
+}
+
+.order-confirm{
+    padding: 20px;
+    width: 320px;
+    font-weight: 700;
+    border-radius:30px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(215, 48, 48);
+    color: wheat;
+    border: 1px ;
+}
+
+.order-confirm:hover{
+    background: #c41d1d;
+}
+
+/* Full-Screen Modal Background */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark semi-transparent overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Make sure it's above everything */
+  }
+  
+  /* Modal Box */
+  .modal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+    position: relative;
+  }
+  
+
+@media  screen and (min-width:1440px) {
+    .order-conatiner{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 20px;
+    }
+
+    /* Full-Screen Modal Background */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark semi-transparent overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Make sure it's above everything */
+  }
+  
+  /* Modal Box */
+  .modal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+    position: relative;
+  }
+  
+ 
+  
+}
